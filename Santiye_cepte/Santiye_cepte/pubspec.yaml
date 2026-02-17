@@ -1,0 +1,56 @@
+name: santiye_cepte
+description: "Şantiye Cepte - İnşaat Sektörü Pazaryeri"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Supabase - Backend & Auth
+  supabase_flutter: ^2.8.4
+
+  # State Management
+  provider: ^6.1.2
+  
+  # UI
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.2.1
+  flutter_svg: ^2.0.17
+  cached_network_image: ^3.4.1
+  shimmer: ^3.0.0
+  flutter_animate: ^4.5.2
+  
+  # Navigation
+  go_router: ^14.8.1
+  
+  # Utilities
+  intl: ^0.20.2
+  shared_preferences: ^2.3.5
+  url_launcher: ^6.3.1
+  flutter_local_notifications: ^18.0.1
+  permission_handler: ^11.4.0
+  
+  # Image Handling
+  image_picker: ^1.1.2
+  
+  # Connectivity
+  connectivity_plus: ^6.1.4
+  flutter_localizations:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
